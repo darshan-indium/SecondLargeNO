@@ -1,0 +1,15 @@
+COMPUTER FUNDAMENTALS
+BASICS OF PROGRAMING
+
+Algorithm to find the second largest number:
+
+Step 1 – Start
+Step 2 – Declare an array and get the inputs for that array using scanner class
+Step 3 - Initialize the first variable with 0 and the second variable with the value -1
+Step 4 - Start traversing the array and in each iteration check:
+i)	If the current element in array i.e. a[i] is greater than the element at the index - first or not. If it is greater then update: second= first
+first = i
+ii)	If the value of current element is in between first and second, then update : 
+     	      second = i
+Step 5 - Return the value stored at the secondindex as the answer.
+Step 6 - Stop
